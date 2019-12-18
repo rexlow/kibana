@@ -7,7 +7,7 @@ export class FeedbackMessage extends Component {
     this.state = { shouldShowTruncate: false, shouldShowIncomplete: false };
   }
 
-  render() {
+  renderOriginal() {
     return (
       <div className="tagcloud-notifications" >
         <div className="tagcloud-truncated-message" style={{ display: this.state.shouldShowTruncate ? 'block' : 'none' }}>
@@ -18,5 +18,9 @@ export class FeedbackMessage extends Component {
         </div>
       </div>
     );
+  }
+
+  render() {
+    return <div />;
   }
 }

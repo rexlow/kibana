@@ -21,3 +21,7 @@
 3. Hid kibana loading indicator
 
 	> `src/ui/public/chrome/directives/kbn_chrome.html`
+	
+4. Hid TagCloud feedback message
+
+	> `src/core_plugins/tagcloud/public/feedback_message.js`
